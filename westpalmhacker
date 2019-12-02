@@ -1,0 +1,128 @@
+$ curl "https://api.ip2location.com/v2/?ip=172.58.11.5&amp;key={YOUR_API_KEY}&amp;package=WS24&amp;addon=continent,country,region,city,geotargeting,country_groupings,time_zone_info"
+ 
+{
+    "country_code": "US",
+    "country_name": "United States",
+    "region_name": "Florida",
+    "city_name": "West Palm Beach",
+    "latitude": "26.71534",
+    "longitude": "-80.05337",
+    "zip_code": "33401",
+    "time_zone": "-05:00",
+    "isp": "T-Mobile USA Inc.",
+    "domain": "t-mobile.com",
+    "net_speed": "DSL",
+    "idd_code": "1",
+    "area_code": "561",
+    "weather_station_code": "USFL0512",
+    "weather_station_name": "West Palm Beach",
+    "mcc": "310",
+    "mnc": "026\/160\/260\/490",
+    "mobile_brand": "T-Mobile",
+    "elevation": "4",
+    "usage_type": "MOB",
+    "credits_consumed": 33,
+    "continent": {
+        "name": "North America",
+        "code": "NA",
+        "hemisphere": [
+            "north",
+            "west"
+        ],
+        "translations": []
+    },
+    "country": {
+        "name": "United States",
+        "alpha3_code": "USA",
+        "numeric_code": "840",
+        "demonym": "Americans",
+        "flag": "https:\/\/cdn.ip2location.com\/assets\/img\/flags\/us.png",
+        "capital": "Washington, D.C.",
+        "total_area": "9826675",
+        "population": "326766748",
+        "currency": {
+            "code": "USD",
+            "name": "United States Dollar",
+            "symbol": "$"
+        },
+        "language": {
+            "code": "EN",
+            "name": "English"
+        },
+        "idd_code": "1",
+        "tld": "us",
+        "translations": []
+    },
+    "region": {
+        "name": "Florida",
+        "code": "12",
+        "translations": []
+    },
+    "city": {
+        "name": "West Palm Beach",
+        "translations": []
+    },
+    "geotargeting": {
+        "metro": "548"
+    },
+    "country_groupings": [
+        {
+            "acronym": "Americas",
+            "name": "Americas"
+        },
+        {
+            "acronym": "APEC",
+            "name": "Asia-Pacific Economic Cooperation"
+        },
+        {
+            "acronym": "DAC",
+            "name": "Development Assistance Committee"
+        },
+        {
+            "acronym": "G2",
+            "name": "Group of Two"
+        },
+        {
+            "acronym": "G20",
+            "name": "Group of Twenty"
+        },
+        {
+            "acronym": "G7",
+            "name": "Group of Seven"
+        },
+        {
+            "acronym": "G8+5",
+            "name": "Group of Eight + Five"
+        },
+        {
+            "acronym": "NAFTA",
+            "name": "North American Free Trade Agreement"
+        },
+        {
+            "acronym": "NALA",
+            "name": "North America and Latin America"
+        },
+        {
+            "acronym": "OAS",
+            "name": "Organization of American States"
+        },
+        {
+            "acronym": "OECD",
+            "name": "Organisation for Economic Co-operation and Development"
+        },
+        {
+            "acronym": "P5",
+            "name": "Permanent Members of the United Nations Security Council"
+        },
+        {
+            "acronym": "UN",
+            "name": "United Nations"
+        }
+    ],
+    "time_zone_info": {
+        "olson": "America\/New_York",
+        "current_time": "2019-12-02T03:30:49-05:00",
+        "gmt_offset": -18000,
+        "is_dst": "no"
+    }
+}
